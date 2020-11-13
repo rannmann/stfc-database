@@ -1,23 +1,3 @@
--- MariaDB dump 10.17  Distrib 10.4.14-MariaDB, for Linux (x86_64)
---
--- Host: localhost    Database: stfc
--- ------------------------------------------------------
--- Server version	10.4.14-MariaDB
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-
---
--- Table structure for table `hostiles`
---
-
-DROP TABLE IF EXISTS `hostiles`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `hostiles` (
@@ -33,13 +13,4 @@ CREATE TABLE `hostiles` (
   KEY `hostiles_ship_type_id_index` (`ship_type_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=46 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
-
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
--- Dump completed on 2020-11-13 14:37:17
+INSERT INTO `hostiles` VALUES (1,'[BOSS] Federation Commander',1,1,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(2,'[BOSS] Klingon Commander',2,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(3,'[BOSS] Romulan Commander',3,3,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(4,'[ELITE] Federation Elite',1,1,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(5,'[ELITE] Klingon Elite',2,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(6,'[ELITE] Romulan Elite',3,3,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(7,'Arkonian Captain',4,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(8,'Arkonian Military',4,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(9,'Arkonian Scavenger',4,1,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(10,'Belakan Tyrant',4,3,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(11,'Benzar Smuggler',4,3,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(12,'Boslic Slave Trader',4,1,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(13,'Corvallen Deceiver',4,1,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(14,'Corvallen Rebel',4,3,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(15,'Dessneran Bandit',4,1,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(16,'Fearless Bandit',4,3,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(17,'Federation Patrol',1,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(18,'Federation Trader',1,4,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(19,'Federation Transport',1,4,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(20,'Gorn Marauder',4,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(21,'Klingon Patrol',2,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(22,'Klingon Trader',2,4,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(23,'Klingon Transport',2,4,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(24,'Kriosian Outlaw',4,1,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(25,'Kriosian Rebel',4,3,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(26,'Nausicaan Outlaw',4,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(27,'Orion Traitor',4,1,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(28,'Osaarian Pariah',4,1,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(29,'Pakled Thief',4,3,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(30,'Reckless Bandit',4,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(31,'Reman Bounty Hunter',4,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(32,'Rigelian Hunter',4,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(33,'Romulan Patrol',3,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(34,'Romulan Trader',3,4,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(35,'Romulan Transport',3,4,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(36,'Romulan Trained Fight',3,2,'2020-08-26 04:08:40','2020-08-26 04:08:40'),(37,'Scouting Bandit',4,1,'2020-08-26 04:08:41','2020-08-26 04:08:41'),(38,'Sona Pirate',4,3,'2020-08-26 04:08:41','2020-08-26 04:08:41'),(39,'Suliban Cabal',4,2,'2020-08-26 04:08:41','2020-08-26 04:08:41'),(40,'Suliban Nomad',4,2,'2020-08-26 04:08:41','2020-08-26 04:08:41'),(41,'Takret Militia',4,3,'2020-08-26 04:08:41','2020-08-26 04:08:41'),(42,'Vaaran Marauder',4,2,'2020-08-26 04:08:41','2020-08-26 04:08:41'),(43,'Vulcan Renegade',4,1,'2020-08-26 04:08:41','2020-08-26 04:08:41'),(44,'Antaak Warship',4,2,'2020-08-26 04:08:41','2020-08-26 04:08:41'),(45,'Rigellian Hunter',4,2,'2020-08-26 04:08:41','2020-08-26 04:08:41');
